@@ -16,7 +16,7 @@ application = Flask(__name__)
 
 ### Code computer
 application.config['SECRET_KEY'] = '3oueqkfdfas8ruewqndr8ewrewrouewrere44554'
-DBVAR="postgresql://tbyaqmlsnqdaab:48ba5bee49266c03a2ba0cbe2fdc5ee758d09033ed445c1cd1fc99944d716a2f@ec2-34-241-82-91.eu-west-1.compute.amazonaws.com:5432/d555n07vl90eh7"
+DBVAR="postgresql://lzcenoveuzhwwx:cbec2685e57b5c15ca7f320f0d49ccf587b55fe7cd8efcefb95db84cbb44c889@ec2-34-250-252-161.eu-west-1.compute.amazonaws.com:5432/d4epm605r5prh4"
 application.config['SQLALCHEMY_DATABASE_URI'] = DBVAR 
 application.config['SQLALCHEMY_BINDS'] ={'transport': DBVAR}
 
